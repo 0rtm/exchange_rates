@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC5E76A9212DDC8A006C1AF9 /* CellFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E76A8212DDC8A006C1AF9 /* CellFromNib.swift */; };
+		AC5E76AD212DDCCA006C1AF9 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E76AB212DDCCA006C1AF9 /* CurrencyTableViewCell.swift */; };
+		AC5E76AE212DDCCA006C1AF9 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5E76AC212DDCCA006C1AF9 /* CurrencyTableViewCell.xib */; };
 		AC992C67212DCBBA00948BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C66212DCBBA00948BAC /* AppDelegate.swift */; };
-		AC992C69212DCBBA00948BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C68212DCBBA00948BAC /* ViewController.swift */; };
 		AC992C6C212DCBBA00948BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC992C6A212DCBBA00948BAC /* Main.storyboard */; };
-		AC992C6F212DCBBA00948BAC /* exchangeRates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC992C6D212DCBBA00948BAC /* exchangeRates.xcdatamodeld */; };
 		AC992C71212DCBBB00948BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC992C70212DCBBB00948BAC /* Assets.xcassets */; };
 		AC992C74212DCBBB00948BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC992C72212DCBBB00948BAC /* LaunchScreen.storyboard */; };
 		AC992C7F212DCBBB00948BAC /* exchangeRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C7E212DCBBB00948BAC /* exchangeRatesTests.swift */; };
+		AC992C8A212DCC1600948BAC /* RatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C89212DCC1600948BAC /* RatesViewController.swift */; };
+		AC992C8E212DCD3200948BAC /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C8D212DCD3200948BAC /* Rates.swift */; };
+		AC992C92212DCD8100948BAC /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C91212DCD8100948BAC /* Route.swift */; };
+		AC992C95212DCE7D00948BAC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC992C94212DCE7D00948BAC /* Alamofire.framework */; };
+		AC992C98212DCEDE00948BAC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C97212DCEDE00948BAC /* APIService.swift */; };
+		AC992C9B212DCF2400948BAC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C9A212DCF2400948BAC /* Currency.swift */; };
+		AC992C9D212DD11B00948BAC /* RouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC992C9C212DD11B00948BAC /* RouteTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC5E76A8212DDC8A006C1AF9 /* CellFromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFromNib.swift; sourceTree = "<group>"; };
+		AC5E76AB212DDCCA006C1AF9 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		AC5E76AC212DDCCA006C1AF9 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
 		AC992C63212DCBBA00948BAC /* exchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC992C66212DCBBA00948BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC992C68212DCBBA00948BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC992C6B212DCBBA00948BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC992C6E212DCBBA00948BAC /* exchangeRates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = exchangeRates.xcdatamodel; sourceTree = "<group>"; };
 		AC992C70212DCBBB00948BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC992C73212DCBBB00948BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC992C75212DCBBB00948BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC992C7A212DCBBB00948BAC /* exchangeRatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exchangeRatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC992C7E212DCBBB00948BAC /* exchangeRatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangeRatesTests.swift; sourceTree = "<group>"; };
 		AC992C80212DCBBB00948BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC992C89212DCC1600948BAC /* RatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewController.swift; sourceTree = "<group>"; };
+		AC992C8D212DCD3200948BAC /* Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		AC992C91212DCD8100948BAC /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		AC992C94212DCE7D00948BAC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		AC992C97212DCEDE00948BAC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AC992C9A212DCF2400948BAC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		AC992C9C212DD11B00948BAC /* RouteTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC992C95212DCE7D00948BAC /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC5E76A5212DDC65006C1AF9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC5E76AB212DDCCA006C1AF9 /* CurrencyTableViewCell.swift */,
+				AC5E76AC212DDCCA006C1AF9 /* CurrencyTableViewCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		AC992C5A212DCBBA00948BAC = {
 			isa = PBXGroup;
 			children = (
+				AC992C93212DCE6400948BAC /* Dependencies */,
 				AC992C65212DCBBA00948BAC /* exchangeRates */,
 				AC992C7D212DCBBB00948BAC /* exchangeRatesTests */,
 				AC992C64212DCBBA00948BAC /* Products */,
@@ -79,13 +106,17 @@
 		AC992C65212DCBBA00948BAC /* exchangeRates */ = {
 			isa = PBXGroup;
 			children = (
-				AC992C66212DCBBA00948BAC /* AppDelegate.swift */,
-				AC992C68212DCBBA00948BAC /* ViewController.swift */,
+				AC5E76A5212DDC65006C1AF9 /* UI */,
+				AC992C99212DCF1800948BAC /* Model */,
+				AC992C90212DCD4800948BAC /* API */,
+				AC992C8F212DCD4200948BAC /* Network */,
+				AC992C8B212DCD0100948BAC /* Rates */,
 				AC992C6A212DCBBA00948BAC /* Main.storyboard */,
 				AC992C70212DCBBB00948BAC /* Assets.xcassets */,
 				AC992C72212DCBBB00948BAC /* LaunchScreen.storyboard */,
 				AC992C75212DCBBB00948BAC /* Info.plist */,
-				AC992C6D212DCBBA00948BAC /* exchangeRates.xcdatamodeld */,
+				AC992C66212DCBBA00948BAC /* AppDelegate.swift */,
+				AC5E76A8212DDC8A006C1AF9 /* CellFromNib.swift */,
 			);
 			path = exchangeRates;
 			sourceTree = "<group>";
@@ -95,8 +126,50 @@
 			children = (
 				AC992C7E212DCBBB00948BAC /* exchangeRatesTests.swift */,
 				AC992C80212DCBBB00948BAC /* Info.plist */,
+				AC992C9C212DD11B00948BAC /* RouteTest.swift */,
 			);
 			path = exchangeRatesTests;
+			sourceTree = "<group>";
+		};
+		AC992C8B212DCD0100948BAC /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				AC992C89212DCC1600948BAC /* RatesViewController.swift */,
+				AC992C8D212DCD3200948BAC /* Rates.swift */,
+			);
+			path = Rates;
+			sourceTree = "<group>";
+		};
+		AC992C8F212DCD4200948BAC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC992C97212DCEDE00948BAC /* APIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC992C90212DCD4800948BAC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC992C91212DCD8100948BAC /* Route.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AC992C93212DCE6400948BAC /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AC992C94212DCE7D00948BAC /* Alamofire.framework */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		AC992C99212DCF1800948BAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC992C9A212DCF2400948BAC /* Currency.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +182,7 @@
 				AC992C5F212DCBBA00948BAC /* Sources */,
 				AC992C60212DCBBA00948BAC /* Frameworks */,
 				AC992C61212DCBBA00948BAC /* Resources */,
+				AC992C96212DCE8800948BAC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -180,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5E76AE212DDCCA006C1AF9 /* CurrencyTableViewCell.xib in Resources */,
 				AC992C74212DCBBB00948BAC /* LaunchScreen.storyboard in Resources */,
 				AC992C71212DCBBB00948BAC /* Assets.xcassets in Resources */,
 				AC992C6C212DCBBA00948BAC /* Main.storyboard in Resources */,
@@ -195,14 +270,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC992C96212DCE8800948BAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC992C5F212DCBBA00948BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC992C69212DCBBA00948BAC /* ViewController.swift in Sources */,
+				AC992C9B212DCF2400948BAC /* Currency.swift in Sources */,
+				AC5E76A9212DDC8A006C1AF9 /* CellFromNib.swift in Sources */,
 				AC992C67212DCBBA00948BAC /* AppDelegate.swift in Sources */,
-				AC992C6F212DCBBA00948BAC /* exchangeRates.xcdatamodeld in Sources */,
+				AC992C98212DCEDE00948BAC /* APIService.swift in Sources */,
+				AC5E76AD212DDCCA006C1AF9 /* CurrencyTableViewCell.swift in Sources */,
+				AC992C92212DCD8100948BAC /* Route.swift in Sources */,
+				AC992C8E212DCD3200948BAC /* Rates.swift in Sources */,
+				AC992C8A212DCC1600948BAC /* RatesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC992C7F212DCBBB00948BAC /* exchangeRatesTests.swift in Sources */,
+				AC992C9D212DD11B00948BAC /* RouteTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +463,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 768KTYFHEL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = exchangeRates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -382,6 +485,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 768KTYFHEL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = exchangeRates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,19 +574,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AC992C6D212DCBBA00948BAC /* exchangeRates.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AC992C6E212DCBBA00948BAC /* exchangeRates.xcdatamodel */,
-			);
-			currentVersion = AC992C6E212DCBBA00948BAC /* exchangeRates.xcdatamodel */;
-			path = exchangeRates.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AC992C5B212DCBBA00948BAC /* Project object */;
 }
